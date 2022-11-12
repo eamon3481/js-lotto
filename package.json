@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve",
     "test": "cypress run",
-    "e2e": "cypress open"
+    "e2e": "start && cypress open"
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
